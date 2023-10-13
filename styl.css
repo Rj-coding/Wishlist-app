@@ -82,6 +82,20 @@ body {
 .btn-primary {
     background: #ffd73b;
     color: #085FE6D1;
-    font-weight: 700;
-    
+    font-weight: 700; 
+}
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  body{
+    background-image: url(portfolio3.jpg);
+  }
+  .input{
+    width: 60vw;
+  }
+  .del-btn{
+    margin-left: 90vw;
+  }
+  .todos-container{
+    width: 350px;
+  }
 }
